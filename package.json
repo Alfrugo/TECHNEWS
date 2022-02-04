@@ -1,0 +1,32 @@
+{
+  "name": "technews",
+  "version": "1.0.0",
+  "description": "allows users to post news and vote on other users news",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfrugo/TECHNEWS.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "express",
+    "sequalize"
+  ],
+  "author": "Alfredo Diez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alfrugo/TECHNEWS/issues"
+  },
+  "homepage": "https://github.com/Alfrugo/TECHNEWS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.0"
+  }
+}
