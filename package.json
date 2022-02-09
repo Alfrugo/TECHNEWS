@@ -1,33 +1,23 @@
 {
-  "name": "technews",
+  "name": "newsfeed-api",
   "version": "1.0.0",
-  "description": "allows users to post news and vote on other users news",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "run"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alfrugo/TECHNEWS.git"
-  },
-  "keywords": [
-    "node",
-    "js",
-    "javascript",
-    "express",
-    "sequalize"
-  ],
-  "author": "Alfredo Diez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Alfrugo/TECHNEWS/issues"
-  },
-  "homepage": "https://github.com/Alfrugo/TECHNEWS#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.15.0"
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
